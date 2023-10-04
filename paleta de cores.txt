@@ -1,0 +1,5 @@
+1AA005 verde
+F6F6F6 cinza de onde vai escrever
+FFFFFF branco do background 2
+E9E8E8 cinza do background1
+000000 cor do texto
