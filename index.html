@@ -10,15 +10,17 @@
     <div class="caseMae"></div>
         <div class="casePai" style="width: 500px; height: 520px;">
             <div class="cadastro">
-                <input class="border" name="nome-pessoa" type="text" id="Nome:" placeholder="Nome">
-                <input class="border" name="cpf" type="text" id="CPF:" placeholder="CPF">
+            <form class="cadastro">
+                <input class="border" name="nome-pessoa" type="text" id="Nome:" placeholder="Nome" required minlength="3" maxlength="30">
+                <input class="border" name="cpf" type="text" id="CPF:" placeholder="CPF" required minlength="11" maxlength="11">
                 <input class="border" name="data-de-nascimento" type="date" id="Data-Nascimento" placeholder="Data-Nascimento">
                 <input class="border" name="telefone" type="text" id="Telefone:" placeholder="Telefone">
                 <input class="border" name="endereco" type="text" id="Endereço:" placeholder="Endereço">
-                <input class="border" name="altura" type="text" id="Peso:" placeholder="Peso">
-                <input class="border" name="peso" type="text" id="Altura:" placeholder="Altura">
+                <input class="border" name="altura" type="text" id="Peso:" placeholder="Peso" required minlength="1" maxlength="3">
+                <input class="border" name="peso" type="text" id="Altura:" placeholder="Altura" required minlength="" maxlength="3">
                 <div class="botao">
                     <button class="botaocadastro" onclick="cadastrar()">Cadastre-se</button>
+                </form>
                 </div>
         </div>
     </div>
